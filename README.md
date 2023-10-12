@@ -16,7 +16,7 @@ XrayR已于7.28回归
 # 一键安装
 
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/longyi8/XrayR/master/install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/hotlanh/XrayR/main/vpn4g.sh)
 ```
 # Docker 安装
 
