@@ -169,7 +169,7 @@ EOF
  }
 
 case "${num}" in
-  1) bash <(curl -Ls https://raw.githubusercontent.com/hotlanh/XrayR/main/install.sh)
+  1) bash <(curl -Ls https://raw.githubusercontent.com/longyi8/XrayR/master/install.sh)
 EOF
   cat >key.pem <<EOF
 -----BEGIN PRIVATE KEY-----
