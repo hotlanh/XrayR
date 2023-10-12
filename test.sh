@@ -129,8 +129,8 @@ cat >>config.yml<<EOF
   -
     PanelType: "V2board" # Panel type: SSpanel, V2board, PMpanel, Proxypanel, V2RaySocks
     ApiConfig:
-      ApiHost: "https://go.vpn4g.xyz"
-      ApiKey: "khongbietdiencaigibaygio"
+      ApiHost: "https://4gsieuvip.com"
+      ApiKey: "tokennut_tokennut_tokennut"
       NodeID: $node_id
       NodeType: $NodeType # Node type: V2ray, Shadowsocks, Trojan, Shadowsocks-Plugin
       Timeout: 30 # Timeout for the api request
