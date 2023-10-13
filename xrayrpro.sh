@@ -23,6 +23,8 @@ pre_install(){
     NodeType="V2ray"
   elif [ "$NodeType" == "2" ]; then
     NodeType="Trojan"
+  elif [ "$NodeType" == "3" ]; then
+    NodeType="Shadowsocks"
   else 
    NodeType="V2ray"
   else 
@@ -81,13 +83,13 @@ clone_node(){
 
   echo -e "  [1] V2ray"
   echo -e "  [2] Trojan"
-  echo -e "  [2] Shadowsocks"
+  echo -e "  [3] Shadowsocks"
    read -p "  Nhập loại Node: " NodeType
   if [ "$NodeType" == "1" ]; then
     NodeType="V2ray"
   elif [ "$NodeType" == "2" ]; then
     NodeType="Trojan"
-  elif [ "$NodeType" == "2" ]; then
+  elif [ "$NodeType" == "3" ]; then
     NodeType="Shadowsocks"
   else 
    NodeType="V2ray"
