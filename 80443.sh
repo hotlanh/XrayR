@@ -11,12 +11,12 @@ sudo ufw allow 80
 sudo ufw allow 443
 
 clear
-read -p " NODE ID  trojan: " node_id1
+read -p " NODE ID  vmess: " node_id1
   [ -z "${node_id1}" ] && node_id1=0
   
 
 
-read -p " NODE ID  vmess: " node_id2
+read -p " NODE ID  trojan: " node_id2
   [ -z "${node_id2}" ] && node_id2=0
 
 
@@ -105,10 +105,10 @@ Nodes:
   -
     PanelType: "V2board" # Panel type: SSpanel, V2board, NewV2board, PMpanel, Proxypanel, V2RaySocks
     ApiConfig:
-      ApiHost: "https://"
-      ApiKey: ""
+      ApiHost: "https://go.vpn4g.xyz"
+      ApiKey: "khongbietdiencaigibaygio"
       NodeID: $node_id1
-      NodeType: Trojan # Node type: V2ray, Shadowsocks, Trojan, Shadowsocks-Plugin
+      NodeType: V2ray # Node type: V2ray, Shadowsocks, Trojan, Shadowsocks-Plugin
       Timeout: 30 # Timeout for the api request
       EnableVless: false # Enable Vless for V2ray Type
       EnableXTLS: false # Enable XTLS for V2ray and Trojan
@@ -156,10 +156,10 @@ Nodes:
   -
     PanelType: "V2board" # Panel type: SSpanel, V2board, NewV2board, PMpanel, Proxypanel, V2RaySocks
     ApiConfig:
-      ApiHost: "https://"
-      ApiKey: ""
+      ApiHost: "https://go.vpn4g.xyz"
+      ApiKey: "khongbietdiencaigibaygio"
       NodeID: $node_id2
-      NodeType: V2ray # Node type: V2ray, Shadowsocks, Trojan, Shadowsocks-Plugin
+      NodeType: Trojan # Node type: V2ray, Shadowsocks, Trojan, Shadowsocks-Plugin
       Timeout: 30 # Timeout for the api request
       EnableVless: false # Enable Vless for V2ray Type
       EnableXTLS: false # Enable XTLS for V2ray and Trojan
