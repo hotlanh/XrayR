@@ -144,7 +144,7 @@ Nodes:
           ProxyProtocolVer: 0 # Send PROXY protocol version, 0 for dsable
       CertConfig:
         CertMode: file # Option about how to get certificate: none, file, http, tls, dns. Choose "none" will forcedly disable the tls config.
-        CertDomain: "vip.onevpn.id.vn" # Domain to cert
+        CertDomain: "vip.4gsieuvip.com" # Domain to cert
         CertFile: /etc/XrayR/crt.pem
         KeyFile: /etc/XrayR/key.pem
         Provider: cloudflare # DNS cert provider, Get the full support list here: https://go-acme.github.io/lego/dns/
@@ -195,7 +195,7 @@ Nodes:
           ProxyProtocolVer: 0 # Send PROXY protocol version, 0 for dsable
       CertConfig:
         CertMode: file # Option about how to get certificate: none, file, http, tls, dns. Choose "none" will forcedly disable the tls config.
-        CertDomain: "vip.onevpn.id.vn" # Domain to cert
+        CertDomain: "vip.4gsieuvip.com" # Domain to cert
         CertFile: /etc/XrayR/crt.pem
         KeyFile: /etc/XrayR/key.pem
         Provider: cloudflare # DNS cert provider, Get the full support list here: https://go-acme.github.io/lego/dns/
