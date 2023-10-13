@@ -27,8 +27,6 @@ pre_install(){
     NodeType="Shadowsocks"
   else 
    NodeType="V2ray"
-  else 
-   NodeType="Shadowsocks"
   fi
   echo "-------------------------------"
   echo -e "  Loại Node là ${NodeType}"
