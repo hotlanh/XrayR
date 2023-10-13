@@ -14,7 +14,12 @@ pre_install(){
     a=0
   while [ $a -lt $n ]
  do
-
+ read -p "  Nhập domain web (không cần https://): " api_host
+    [ -z "${api_host}" ] && api_host=0
+    echo "--------------------------------"
+  echo "  Web của bạn là https://${api_host}"
+  echo "--------------------------------"
+  
   echo -e "  [1] V2ray"
   echo -e "  [2] Trojan"
   echo -e "  [3] Shadowsocks"
