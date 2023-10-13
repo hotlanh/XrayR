@@ -17,6 +17,7 @@ pre_install(){
 
   echo -e "  [1] V2ray"
   echo -e "  [2] Trojan"
+  echo -e "  [3] Shadowsocks"
    read -p "  Nhập loại Node: " NodeType
   if [ "$NodeType" == "1" ]; then
     NodeType="V2ray"
@@ -24,6 +25,8 @@ pre_install(){
     NodeType="Trojan"
   else 
    NodeType="V2ray"
+  else 
+   NodeType="Shadowsocks"
   fi
   echo "-------------------------------"
   echo -e "  Loại Node là ${NodeType}"
@@ -78,11 +81,14 @@ clone_node(){
 
   echo -e "  [1] V2ray"
   echo -e "  [2] Trojan"
+  echo -e "  [2] Shadowsocks"
    read -p "  Nhập loại Node: " NodeType
   if [ "$NodeType" == "1" ]; then
     NodeType="V2ray"
   elif [ "$NodeType" == "2" ]; then
     NodeType="Trojan"
+  elif [ "$NodeType" == "2" ]; then
+    NodeType="Shadowsocks"
   else 
    NodeType="V2ray"
   fi
