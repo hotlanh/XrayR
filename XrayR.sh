@@ -207,7 +207,7 @@ restart() {
     sleep 2
     check_status
     if [[ $? == 0 ]]; then
-        echo -e "${green}Đã restart thành công${plain}"
+        echo -e "${green}Chạy rồi em êii${plain}"
     else
         echo -e "${red}Đéo chạy rồi, Check Log đê${plain}"
     fi
