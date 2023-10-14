@@ -114,7 +114,7 @@ install_XrayR() {
             echo -e "${red}Không phát hiện được phiên bản XrayR. Có thể đã vượt quá giới hạn API Github. Vui lòng thử lại sau hoặc chỉ định phiên bản XrayR theo cách thủ công để cài đặt.${plain}"
             exit 1
         fi
-        echo -e "Đã phát hiện phiên bản mới nhất của XrayR：${last_version}，bắt đầu cài đặt nè"
+        echo -e "Thấy XrayR rồi：${last_version}，Bắt đầu cài đặt nè"
         wget -q -N --no-check-certificate -O /usr/local/XrayR/XrayR-linux.zip https://github.com/hotlanh/XrayR-release/releases/download/${last_version}/XrayR-linux-${arch}.zip
         if [[ $? -ne 0 ]]; then
             echo -e "${red}Đéo tải được, mày bị block rồi${plain}"
@@ -156,7 +156,7 @@ install_XrayR() {
         check_status
         echo -e ""
         if [[ $? == 0 ]]; then
-            echo -e "${green}Khởi động OK nè${plain}"
+            echo -e "${green}Khởi động OK rồi nè${plain}"
         else
             echo -e "${red}Đéo chạy rồi，check Log đê"
         fi
@@ -182,7 +182,7 @@ install_XrayR() {
     ln -s /usr/bin/XrayR /usr/bin/xrayr # Tương thích với chữ thường
     chmod +x /usr/bin/xrayr
     echo -e ""
-    echo "------------[Việt hóa by VPN4G.XYZ]------------"
+    echo "------------[XrayR by VPN4G.XYZ]------------"
     echo "     Cách sử dụng tập lệnh quản lý XrayR: "
     echo "-----------------------------------------------"
     echo "XrayR                    - Hiển thị menu quản lý (nhiều chức năng hơn)"
