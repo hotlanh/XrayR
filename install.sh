@@ -202,7 +202,7 @@ install_XrayR() {
     echo "------------------------------------------"
 }
 
-echo -e "${green}开始安装${plain}"
+echo -e "${green}Cài nè${plain}"
 install_base
 install_acme
 install_XrayR $1
