@@ -389,8 +389,8 @@ show_usage() {
 show_menu() {
     echo -e "
   ${green}Các lệnh quản lý XrayR，${plain}${red}Không hoạt động với docker${plain}
---- https://github.com/Misaka-blog/XrayR ---
-  ${green}0.${plain} 修改配置
+--- XrayR by VPN4G.XYZ ---
+  ${green}0.${plain} Sửa cấu hình
 ————————————————
   ${green}1.${plain} Cài đặt XrayR
   ${green}2.${plain} Cập nhật XrayR
