@@ -142,7 +142,7 @@ config() {
 }
 
 uninstall() {
-    confirm "Em muốn gỡ cài đặt XrayR à??" "n"
+    confirm "Mày có chắc muốn gỡ XrayR không ??" "n"
     if [[ $? != 0 ]]; then
         if [[ $# == 0 ]]; then
             show_menu
